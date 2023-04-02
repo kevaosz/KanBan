@@ -222,3 +222,19 @@ section.kanban h2 {
   gap: 2.4rem;
 }
 
+.highlight {
+  background-color: #662ec80f;
+  border-radius: .8rem;
+  height: 100%;
+  transition: 400ms;
+}
+
+
+.is-dragging {
+  cursor: move;
+  opacity: 0.3;
+}
+
+.over {
+  background-color: #662ec82f;
+}
